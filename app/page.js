@@ -10,10 +10,33 @@ export default function Home() {
     <div className="space-y-4 px-4 lg:px-none">
       <div>
         <section className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          <DataCards title="Requests" value="7,265" perc="+11.02%" up />
-          <DataCards title="Kyc" value="3,671" perc="-0.03%" />
-          <DataCards title="Tasks" value="156" perc="+15.03%" up />
-          <DataCards title="Customers" value="2,318" perc="+6.08%" up />
+          <DataCards
+            title="Requests"
+            otherStyles="bg-[#E3F5FF]"
+            value="7,265"
+            perc="+11.02%"
+            up
+          />
+          <DataCards
+            title="Kyc"
+            otherStyles="bg-[#E5ECF6]"
+            value="3,671"
+            perc="-0.03%"
+          />
+          <DataCards
+            title="Tasks"
+            otherStyles="bg-[#E3F5FF]"
+            value="156"
+            perc="+15.03%"
+            up
+          />
+          <DataCards
+            title="Customers"
+            otherStyles="bg-[#E5ECF6]"
+            value="2,318"
+            perc="+6.08%"
+            up
+          />
         </section>
       </div>
       <div className="grid grid-col-1 md:grid-cols-4 gap-4">

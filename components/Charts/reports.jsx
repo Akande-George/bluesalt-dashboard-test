@@ -58,6 +58,7 @@ const Reports = () => {
       <div>
         <ChartContainer
           config={chartConfig}
+          className="overflow-x-auto"
           style={{ width: "100%", height: "300px" }}
         >
           <BarChart

@@ -1,8 +1,8 @@
 import React from "react";
 
-const DataCards = ({ title, value, perc, up }) => {
+const DataCards = ({ title, value, perc, up, otherStyles }) => {
   return (
-    <div className={`bg-[#E3F5FF] rounded-xl p-6`}>
+    <div className={`${otherStyles} rounded-xl p-6`}>
       <div className="text-[12px]">{title}</div>
       <div className="flex justify-between items-center mt-4">
         <div className="text-2xl font-medium">{value}</div>

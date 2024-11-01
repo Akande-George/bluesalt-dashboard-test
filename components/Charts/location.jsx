@@ -48,11 +48,11 @@ const Location = () => {
         <div className="font-semibold text-xs">Traffic by locations</div>
       </div>
       <div className="grid grid-cols-2 gap-4">
-        <div>
+        <di>
           <ChartContainer
             config={chartConfig}
             style={{ width: "100%", height: "300px" }}
-            className="mx-auto aspect-square"
+            className="mx-auto aspect-square overflow-x-auto"
           >
             <PieChart>
               <ChartTooltip
@@ -67,7 +67,7 @@ const Location = () => {
               />
             </PieChart>
           </ChartContainer>
-        </div>
+        </di>
         <div className="space-y-4 pt-20">
           <div className="text-[12px] flex justify-between items-center">
             <div className="flex justify-start items-center space-x-1">
