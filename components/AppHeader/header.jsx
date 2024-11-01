@@ -19,16 +19,16 @@ const Header = ({ toggleNav, toggleNot }) => {
               <div className="text-[#1C1C1C33]">⌘/</div>
             </div>
             <div>
-              <img className="w-[30px]" src="/sun.svg" />
+              <img className="w-[25px]" src="/sun.svg" />
             </div>
             <div>
-              <img className="w-[30px]" src="/ccw.svg" />
+              <img className="w-[25px]" src="/ccw.svg" />
             </div>
             <div>
-              <img className="w-[30px]" src="/bell.svg" />
+              <img className="w-[25px]" src="/bell.svg" />
             </div>
             <div>
-              <img className="w-[30px]" src="/sidebar.svg" />
+              <img className="w-[25px]" src="/sidebar.svg" />
             </div>
           </div>
         </section>
